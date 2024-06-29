@@ -7,6 +7,7 @@ import Menu from "@/components/Molecules/Menu/Menu";
 import FeatureCard from "@/components/Organisms/Feature/FeatureCard";
 import { Slider } from "@/components/Organisms/Card/Slider";
 import Categories from "@/components/Organisms/Categories/Categories";
+import Products from "@/components/Organisms/Products/Products";	
 // import SimpleSlider from "@/components/Organisms/Card/Slider";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Slider />
       <FeatureCard/>
       <Categories/>
+      <Products/>
     </div>
   );
 }
