@@ -9,12 +9,16 @@ import { Slider } from "@/components/Organisms/Card/Slider";
 import Categories from "@/components/Organisms/Categories/Categories";
 import Products from "@/components/Organisms/Products/Products";	
 import Discount from "@/components/Organisms/Discount/Discount";
+import DailyBlog from "@/components/Organisms/DailyBlog/DailyBlog";
+import Company from "@/components/Molecules/Company/Company";
+import Footer from "@/components/Organisms/Footer/Footer";
 // import SimpleSlider from "@/components/Organisms/Card/Slider";
 
 export default function Home() {
   return (
     <div className="">
       <NavBar/>
+      
       <Menu/>
       {/* <CardBg/> */}
       {/* <SimpleSlider /> */}
@@ -23,6 +27,9 @@ export default function Home() {
       <Categories/>
       <Products/>
       <Discount/>
+      <DailyBlog/>
+      <Company/>
+      <Footer/>
     </div>
   );
 }
