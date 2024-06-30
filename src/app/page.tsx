@@ -8,6 +8,7 @@ import FeatureCard from "@/components/Organisms/Feature/FeatureCard";
 import { Slider } from "@/components/Organisms/Card/Slider";
 import Categories from "@/components/Organisms/Categories/Categories";
 import Products from "@/components/Organisms/Products/Products";	
+import Discount from "@/components/Organisms/Discount/Discount";
 // import SimpleSlider from "@/components/Organisms/Card/Slider";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <FeatureCard/>
       <Categories/>
       <Products/>
+      <Discount/>
     </div>
   );
 }
